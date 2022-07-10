@@ -1,13 +1,13 @@
-package microservices.eurikaserver;
+package microservices.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EurikaServerApplication {
+public class EurekaServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurikaServerApplication.class, args);
+        SpringApplication.run(EurekaServerApplication.class, args);
     }
 
 }
