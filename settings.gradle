@@ -1,5 +1,6 @@
 rootProject.name = 'Test.Spring.Microservices'
 
+includeBuild 'api-gateway'
 includeBuild 'eureka-server'
 includeBuild 'eureka-client'
-includeBuild 'api-gateway'
+includeBuild 'eureka-client-2'
